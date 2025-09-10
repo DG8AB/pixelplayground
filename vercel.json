@@ -1,1 +1,8 @@
-{ "rewrites": [{ "source": "/:path((?!api/).*)", "destination": "/" }], "routes": [{ "src": "/(.*)", "status": 404, "dest": "/404" }] }
+{
+  "rewrites": [
+    { "source": "/:path((?!api/).*)", "destination": "/" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "status": 404, "dest": "/404" }
+  ]
+}
